@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #212529;
+}
+
+.nav-left {
+  padding-left: 150px;
+}
+
+.nav-right {
+  padding-right: 150px;
+}
+
+.navbar-nav a{
+  color: white;
+}
+
+.navbar-nav a:hover {
+  color: red;
+}
+
+main  {
+  background-color: #292e38;
+}
+
+.card {
+  background-color: transparent !important;
+}
+
+.width {
+  width: calc(100% / 3 - 2rem);
+}
